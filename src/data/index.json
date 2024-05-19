@@ -1,0 +1,41 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Code Refactoring",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Database Design",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "REST APIs",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "4",
+            "src": "./img/feather-pen-1.png",
+            "title": "Agile Development",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "5",
+            "src": "./img/feather-pen-1.png",
+            "title": "Unit Testing",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+            "id": "6",
+            "src": "./img/feather-pen-1.png",
+            "title": "Regression Testing",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        }
+
+    ]
+}

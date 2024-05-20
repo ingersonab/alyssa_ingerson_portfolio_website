@@ -37,5 +37,32 @@
             "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
         }
 
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/TheLearningLab_Placeholder.jpg",
+            "title": "The Learning Lab",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "link": "View In GitHub",
+            "href": "https://github.com/ingersonab/TheLearningLab"
+        },
+        {
+            "id": "2",
+            "src": "./img/Colibrarian_Placeholder.png",
+            "title": "Colibrarian Library Management System",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "link": "View In GitHub",
+            "href": "https://github.com/VictoriaWright567/Co-Librarian-Library-Management-System/tree/main"
+        },
+        {
+            "id": "3",
+            "src": "./img/placeholder-image-2.png",
+            "title": "Binary Search Tree with Duplicates Project",
+            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "link": "View In GitHub",
+            "href": "https://github.com/ingersonab/CIS343Project"
+        }
+        
     ]
 }

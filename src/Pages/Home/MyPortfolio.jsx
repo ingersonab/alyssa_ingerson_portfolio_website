@@ -4,7 +4,9 @@ export default function MyPortfolio() {
     return <section className="portfolio-section" id="MyPortfolio">
         <div className="portfolio-container-box">
             <div className="portfolio-container">
-               <h2 className="section-heading">Recent Projects</h2>
+                <p className="sub-title">Recent Projects</p>
+                <br/>
+               <h2 className="section-heading">My Portfolio</h2>
             </div>
             <div>
                 <a href="https://github.com/ingersonab" style={{textDecoration: "none"}}>
@@ -23,6 +25,8 @@ export default function MyPortfolio() {
                         <div>
                             <h3 className="portfolio-section-title">{item.title}</h3>
                             <p className="text-md">{item.description}</p>
+                            <br/>
+                            <p className="text-sm" style={{color: "gray"}}>{item.tech}</p>
                         </div>
                         <p className="text-sm portfolio--link">
                             {item.link} &nbsp;

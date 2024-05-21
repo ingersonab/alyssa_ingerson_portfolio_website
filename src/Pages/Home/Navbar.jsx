@@ -38,7 +38,6 @@ function Navbar() {
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div className="logo-container">
                 <img src="./img/portfolio_logo.png" height="60" width="60" alt="portfolio_img"/>
-                <h3>Alyssa Ingerson</h3>
             </div>
             <a className={`nav_hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav_hamburger_line"></span>

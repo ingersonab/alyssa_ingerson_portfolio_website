@@ -1,7 +1,6 @@
 import data from "../../data/index.json";
 
 export default function MySkills(){
-    /*<p className="skills-section-description">{item.description}</p>*/
     return(
         <section className="skills-section" id="MySkills">
             <div className="portfolio-container" style={{padding: "60px"}}>
@@ -10,9 +9,14 @@ export default function MySkills(){
                         My Skills
                     </h2>
                     <div>
-                        <button className="btn btn-resume">
-                            View My Resume
-                        </button>
+                        <a 
+                            href="/Alyssa_Ingerson_Resume.pdf" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            style={{textDecoration: "none"}}
+                        >
+                            <button className="btn btn-resume">View My Resume</button>
+                        </a>
                     </div>
                     
                 </div>
@@ -24,7 +28,8 @@ export default function MySkills(){
                             </div>
                             <div className="skills-section-card-content">
                                 <h3 className="skills-section-title">{item.title}</h3>
-                               
+                                <p className="skills-section-description">{item.description}</p>
+                                <h2 className="skills-section-skill-level">{item.skill}</h2>
                             </div>
                         </div>
                     ))}

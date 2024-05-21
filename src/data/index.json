@@ -3,39 +3,51 @@
         {
             "id": "1",
             "src": "./img/product-chain-1.png",
-            "title": "Code Refactoring",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "title": "Programming Languages",
+            "description": "Java, Python, HTML/CSS, JavaScript, React.js, Node.js, SQL",
+            "skill": "Intermediate"
         },
         {
             "id": "2",
             "src": "./img/tag-1.png",
             "title": "Database Design",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "MySQL Workbench, Microsoft SQL Server Management Studio, phpMyAdmin, Lucidchart",
+            "skill": "Intermediate"
         },
         {
             "id": "3",
             "src": "./img/feather-pen-2.png",
             "title": "REST APIs",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Express.js",
+            "skill": "Novice"
         },
         {
             "id": "4",
             "src": "./img/feather-pen-1.png",
             "title": "Agile Development",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "Scrum",
+            "skill": "Intermediate"
         },
         {
             "id": "5",
             "src": "./img/feather-pen-1.png",
             "title": "Unit Testing",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "description": "JUnit, .NET Unit Testing",
+            "skill": "Novice"
         },
         {
             "id": "6",
             "src": "./img/feather-pen-1.png",
             "title": "Regression Testing",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+            "skill": "Novice"
+        },
+        {
+            "id": "7",
+            "src": "./img/feather-pen-1.png",
+            "title": "Code Refactoring",
+            "skill": "Intermediate"
         }
+
 
     ],
     "portfolio": [
@@ -43,7 +55,8 @@
             "id": "1",
             "src": "./img/TheLearningLab_Placeholder.jpg",
             "title": "The Learning Lab",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "description": "Gamified web application for K-12 students and educators. Features include fully functioning Login system with user authentication/authorization, course creation, student enrollment, and game scoreboard for teachers, and two demo Unity games for students to play.",
+            "tech": "Tech: React.js, Node.js, Express.js, HTML, CSS, SQL, MySQL, Unity WebGL",
             "link": "View In GitHub",
             "href": "https://github.com/ingersonab/TheLearningLab"
         },
@@ -51,15 +64,17 @@
             "id": "2",
             "src": "./img/Colibrarian_Placeholder.png",
             "title": "Colibrarian Library Management System",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "description": "Java GUI application for library users to add a new book to the database, search the database for existing books, and export book data into a JSON file.",
+            "tech": "Tech: Java Swing, SQL, MySQL, Gson",
             "link": "View In GitHub",
             "href": "https://github.com/VictoriaWright567/Co-Librarian-Library-Management-System/tree/main"
         },
         {
             "id": "3",
-            "src": "./img/placeholder-image-2.png",
+            "src": "./img/BSTProject_Placeholder.png",
             "title": "Binary Search Tree with Duplicates Project",
-            "description": "Lorem ipsum dolor sit amet, consectetor adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+            "description": "Console application that implements a generic binary search tree that handles duplicate elements by storing a HashMap in each node (key is the item and value is the number of times that item is stored). Features include inserting elements, removing elements, viewing element count, checking if an element exists, and viewing the binary search tree. ",
+            "tech": "Tech: Java",
             "link": "View In GitHub",
             "href": "https://github.com/ingersonab/CIS343Project"
         }

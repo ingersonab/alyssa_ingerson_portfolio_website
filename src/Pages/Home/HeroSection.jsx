@@ -7,14 +7,14 @@ export default function HeroSection() {
                 <div className="hero-section-content">
                     <p className="section-title">Hey, I'm Alyssa</p>
                     <h1 className="hero-section-title">
-                        <span className="hero-section-title-color">Aspiring Software </span>{" "}
+                        <span className="hero-section-title-color">Aspiring Software</span>{" "}
                         <br/>
                         Developer
                     </h1>
                     <p className="hero-section-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Constantly focused on learning new skills in software development
                         <br/>
-                         Dolorum quasi tempora quos iste illo ad commodi nihil animi? 
+                        and applying my knowledge to new and exciting projects.
                     </p>
                 </div>
                 <div className="footer-social-icon">
@@ -22,7 +22,7 @@ export default function HeroSection() {
                         <li>
                             <a
                                 href="https://www.facebook.com/alyssa.ingerson.5"
-                                className="navbar--content"
+                                className="navbar-content"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -43,7 +43,7 @@ export default function HeroSection() {
                         <li>
                             <a
                                 href="https://www.instagram.com/padawanalyssa16/"
-                                className="navbar--content"
+                                className="navbar-content"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -66,7 +66,7 @@ export default function HeroSection() {
                         <li>
                             <a
                                 href="https://www.linkedin.com/in/alyssa-ingerson-071a0b22b/"
-                                className="navbar--content"
+                                className="navbar-content"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -84,6 +84,37 @@ export default function HeroSection() {
                                         fill="black"
                                     />
                                 </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="mailto:aingerson121@gmail.com"
+                                className="navbar-content"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                            
+                                <svg 
+                                    version="1.0" 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="32" 
+                                    height="32" 
+                                    viewBox="0 0 512 512"
+                                    
+                                >
+
+                                    <g 
+                                        transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                        fill="#000000" 
+                                        stroke="none"
+                                    >
+                                        <path d="M593 4060 c-56 -12 -96 -33 -139 -77 -36 -36 -73 -104 -74 -135 0 -10 363 -256 1078 -726 593 -391 1085 -714 1093 -717 20 -8 2183 1416 2187 1439 5 25 -37 104 -76 143 -19 20 -56 45 -81 57 l-46 21 -1950 1 c-1072 1 -1969 -2 -1992 -6z"/>
+                                        <path d="M370 2560 c0 -523 3 -950 6 -950 3 0 334 208 736 462 592 374 727 463 716 474 -11 10 -828 551 -1300 860 l-158 104 0 -950z"/>
+                                        <path d="M4022 3029 c-398 -262 -728 -481 -733 -486 -6 -6 254 -176 722 -472 402 -254 733 -461 735 -458 2 2 3 429 2 949 l-3 944 -723 -477z"/>
+                                        <path d="M1238 1827 c-471 -298 -857 -546 -857 -552 -1 -24 49 -113 80 -144 19 -19 54 -44 79 -55 l45 -21 1985 0 1985 0 40 22 c75 40 145 133 145 192 0 14 -202 146 -837 547 -461 290 -848 534 -859 541 -20 13 -36 4 -213 -112 -210 -138 -251 -159 -291 -151 -15 3 -120 66 -234 140 -113 75 -207 136 -209 136 -1 0 -388 -245 -859 -543z"/>
+                                    </g>
+                                </svg>
+                                
                             </a>
                         </li>
                     </ul>

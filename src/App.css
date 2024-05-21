@@ -24,10 +24,10 @@ p {
     --bg-shade: #FFF6FF;
     --bg-shade2: #FFECFC;
     --bg-shade3: #FFE2E3;
-    --bg-shade4: #FFDFB9;
+    --bg-shade4: #fcfaf7;
     --bg-shade5: #FFE88D;
     --bg-shade6: #F9F871;
-    --github: #FFA274;
+    --github: #FF7AA0;
     --resume: #FF6BD4;
     --darkblue: #1c1e53;
     --black: #000000;
@@ -367,6 +367,14 @@ h3 {
     line-height: 32px;
 }
 
+.skills-section-skill-level {
+    color: var(--heading-color);
+    font-size: 21.3px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
 /* About Me Styles */
 .about-section {
     display: grid;
@@ -475,6 +483,19 @@ h3 {
     gap: 64px;
 }
 
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info svg {
+  margin-right: 10px;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
 .contact-form-container {
     display: grid;
     grid-template-columns: auto;
@@ -531,7 +552,7 @@ select {
     padding: 106.667px 85.333px;
     flex-direction: column;
     align-items: flex-start;
-    background: var(--bg-shade5);
+    background: var(--bg-shade);
     align-items: center;
     align-self: stretch;
   }

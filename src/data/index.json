@@ -2,48 +2,48 @@
     "skills": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
+            "src": "./img/programming-code-svgrepo-com.png",
             "title": "Programming Languages",
             "description": "Java, Python, HTML/CSS, JavaScript, React.js, Node.js, SQL",
             "skill": "Intermediate"
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
+            "src": "./img/database-configuration-svgrepo-com.png",
             "title": "Database Design",
             "description": "MySQL Workbench, Microsoft SQL Server Management Studio, phpMyAdmin, Lucidchart",
             "skill": "Intermediate"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
+            "src": "./img/api-svgrepo-com.png",
             "title": "REST APIs",
             "description": "Express.js",
             "skill": "Novice"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
+            "src": "./img/cycle-couple-of-arrows-hand-drawn-lines-svgrepo-com.png",
             "title": "Agile Development",
-            "description": "Scrum",
+            "description": "Scrum, Jira",
             "skill": "Intermediate"
         },
         {
             "id": "5",
-            "src": "./img/feather-pen-1.png",
+            "src": "./img/magnifying-glass-search-svgrepo-com.png",
             "title": "Unit Testing",
             "description": "JUnit, .NET Unit Testing",
             "skill": "Novice"
         },
         {
             "id": "6",
-            "src": "./img/feather-pen-1.png",
+            "src": "./img/check-mark-notepad-svgrepo-com.png",
             "title": "Regression Testing",
             "skill": "Novice"
         },
         {
             "id": "7",
-            "src": "./img/feather-pen-1.png",
+            "src": "./img/code-signs-on-laptop-screen-svgrepo-com.png",
             "title": "Code Refactoring",
             "skill": "Intermediate"
         }
@@ -53,7 +53,7 @@
     "portfolio": [
         {
             "id": "1",
-            "src": "./img/TheLearningLab_Placeholder.jpg",
+            "src": "./img/TheLearningLab_MockUp.png",
             "title": "The Learning Lab",
             "description": "Gamified web application for K-12 students and educators. Features include fully functioning Login system with user authentication/authorization, course creation, student enrollment, and game scoreboard for teachers, and two demo Unity games for students to play.",
             "tech": "Tech: React.js, Node.js, Express.js, HTML, CSS, SQL, MySQL, Unity WebGL",

@@ -20,6 +20,7 @@ p {
 
 :root {
     --primary: #b977ff;
+    --primary2: #DDC4FD;
     --heading-color: #282938;
     --bg-shade: #FFF6FF;
     --bg-shade2: #FFECFC;
@@ -344,6 +345,11 @@ h3 {
     box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 
+.skills-img {
+  height: 50px;
+  width: 50px;
+}
+
 .skills-section-card-content {
     display: flex;
     flex-direction: column;
@@ -468,7 +474,7 @@ h3 {
 }
 
 .portfolio-section-card:hover path {
-    stroke: #006b6a;
+    stroke: #00705C;
 }
 
 /* Contact Me Styles */
@@ -581,6 +587,20 @@ select {
     flex-shrink: 0;
     text-decoration: none;
   }
+
+  .social-icon:hover {
+    background-color: var(--primary2);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+  }
+
   .divider {
     margin: 106px 0 42.67px;
     height: 1.333px;

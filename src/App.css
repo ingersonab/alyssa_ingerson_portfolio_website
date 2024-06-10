@@ -212,7 +212,7 @@ h3 {
 
 /* Skills and About Me */
 .section-title {
-    color: var(--heading-color);
+    color: var(--white);
     font-size: 21px;
     text-align: center;
     font-style: normal;
@@ -238,7 +238,11 @@ h3 {
     align-items: center;
     justify-content: space-between;
     gap: 32px;
-    background-color: var(--bg-shade);
+    /*background-color: var(--bg-shade);*/
+    background-image: url('../public/img/VMI_2024_Ingerson_253e.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-section-content-box {
@@ -260,7 +264,7 @@ h3 {
 }
 
 .hero-section-title {
-    color: var(--heading-color);
+    color: var(--white);
     font-size: 74.667px;
     font-weight: 700;
     line-height: 90px;
@@ -268,7 +272,7 @@ h3 {
 }
 
 .hero-section-title-color {
-    color: var(--heading-color);
+    color: var(--white);
 }
 
 .hero-section-title-description {

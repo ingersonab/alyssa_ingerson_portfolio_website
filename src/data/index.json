@@ -1,4 +1,9 @@
 {
+    "herosection": [
+       { 
+        "src": "./img/VMI_2024_Ingerson_011e.jpg"
+       }
+    ],
     "skills": [
         {
             "id": "1",

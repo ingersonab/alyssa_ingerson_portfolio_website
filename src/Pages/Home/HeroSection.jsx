@@ -1,6 +1,7 @@
 import { Link } from "react-scroll";
 
 export default function HeroSection() {
+    
     return (
         <section id="heroSection" className="hero-section">
             <div className="hero-section-content-box">
@@ -11,13 +12,13 @@ export default function HeroSection() {
                         <br/>
                         Developer
                     </h1>
-                    <p className="hero-section-description">
+                    <p className="hero-section-description" style={{color: "white"}}>
                         Constantly focused on learning new skills in software development
                         <br/>
                         and applying my knowledge to new and exciting projects.
                     </p>
                 </div>
-                <div className="footer-social-icon">
+                <div className="footer-social-icon" style={{backgroundColor: "#FFF6FF", borderRadius: "10px", borderStyle: "solid", boxShadow: "5px 5px 5px black"}}>
                     <ul style={{paddingLeft: "0"}}>
                         <div className="social-icon">
                             <li>
@@ -129,10 +130,12 @@ export default function HeroSection() {
                     <button className="btn btn-primary">Get In Touch</button>
                 </Link>
             </div>
-            <div className="hero-section-img">
-                <img src="./img/alyssa_portfolio_img.png" alt="Hero Section" />
-            </div>
+            
+            
         </section>
     );
+    /*<div className="hero-section-img">
+        <img src="./img/alyssa_portfolio_img.png" alt="Hero Section" />
+    </div> */
     
 }

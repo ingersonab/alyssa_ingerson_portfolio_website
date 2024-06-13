@@ -20,14 +20,16 @@ p {
 
 :root {
     --primary: #b977ff;
-    --primary2: #DDC4FD;
+    --primary2: #ddc4fd;
+    --skill-color: #ece1fa;
     --heading-color: #282938;
     --bg-shade: #FFF6FF;
     --bg-shade2: #FFECFC;
     --bg-shade3: #FFE2E3;
     --bg-shade4: #fcfaf7;
-    --bg-shade5: #FFE88D;
-    --bg-shade6: #F9F871;
+    --bg-shade5: #D9D6E6;
+    --bg-shade6: #FFE88D;
+    --bg-shade7: #F9F871;
     --github: #FF7AA0;
     --resume: #FF6BD4;
     --darkblue: #1c1e53;
@@ -78,7 +80,7 @@ p {
 
 .btn-primary:hover {
     color: var(--primary);
-    background-color: var(--white);
+    background-color: transparent;
 }
 
 .btn-github {
@@ -325,7 +327,7 @@ h3 {
     gap: 32px;
     flex: 1 0 0;
     border-radius: 10.6px;
-    background: var(--bg-shade2);
+    background: var(--skill-color);
     min-height: 250px;
 }
 
@@ -392,7 +394,7 @@ h3 {
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);
-    background: var(--bg-shade3);
+    background: var(--bg-shade2);
 }
 .about-section-img > img {
     width: 100%;
@@ -406,7 +408,7 @@ h3 {
     display: flex;
     padding: 112px 85px;
     flex-direction: column;
-    align-items: flex;
+    align-items: flex-start;
     gap: 80px;
     background: var(--bg-shade4);
 }
@@ -427,6 +429,7 @@ h3 {
 
 .portfolio-section-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 42.6px;
@@ -447,8 +450,8 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    flex: 1 0 0;
-    background: #fff;
+    flex: 1 0 calc(33.33% - 28.4px);
+    background: hsl(0, 0%, 100%);
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     border-top-left-radius: 12px;

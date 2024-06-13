@@ -8,9 +8,9 @@ import Footer from "../Footer";
 export default function Home() {
     return(
         <>
-            <HeroSection/>  
+            <HeroSection/>
+            <AboutMe />  
             <MySkills/>
-            <AboutMe />
             <MyPortfolio />
             <ContactMe />
             <Footer />

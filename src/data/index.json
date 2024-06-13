@@ -4,6 +4,7 @@
         "src": "./img/VMI_2024_Ingerson_011e.jpg"
        }
     ],
+
     "skills": [
         {
             "id": "1",
@@ -55,6 +56,7 @@
 
 
     ],
+
     "portfolio": [
         {
             "id": "1",
@@ -82,7 +84,27 @@
             "tech": "Tech: Java",
             "link": "View In GitHub",
             "href": "https://github.com/ingersonab/CIS343Project"
+        },
+        {
+            "id": "4",
+            "src": "./img/alyssa-website-preview.png",
+            "title": "Personal Portfolio Site",
+            "description": "React-based personal portfolio website for showcasing my projects. ",
+            "tech": "Tech: React.js, CSS",
+            "link": "View In GitHub",
+            "href": "https://github.com/ingersonab/alyssa_ingerson_portfolio_website"
+        },
+        {
+            "id": "5",
+            "src": "./img/alyssa-resume-preview.png",
+            "title": "Resume",
+            "description": "My resume rebuilt with HTML and CSS. Fully responsive with hyperlinks for easy navigation to my contact and school information.",
+            "tech": "Tech: HTML, CSS, Font Awesome",
+            "link": "View In GitHub",
+            "href": "https://github.com/ingersonab/alyssa-online-resume"
         }
+
+
         
     ]
 }
